@@ -9,6 +9,11 @@ var pli,pli1,pli2,pli3,pli4,pli5,pli6,pli7,pli8;
 var p,p1,p2,p3,p4,p5;
 
 var particles=[];
+var plinko=[];
+var divisions=[];
+
+var divisionHeight=300;
+
 function setup() {
   createCanvas(800,800);
   engine = Engine.create();
@@ -95,5 +100,10 @@ function draw() {
     particles.push(new Particles(random(width/2-10,width/2+10),10,10));
   }
   
+  for(var k = 0; k<=width, k = k+80) {
+    divisions.push(new Divisions(k, height-divisionHeight/2, 10, divisionHeight));
+  
+  }
+    
 }
 
