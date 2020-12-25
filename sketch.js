@@ -9,7 +9,6 @@ var pli,pli1,pli2,pli3,pli4,pli5,pli6,pli7,pli8;
 var p,p1,p2,p3,p4,p5;
 
 var particles=[];
-var plinko=[];
 var divisions=[];
 
 var divisionHeight=300;
