@@ -86,7 +86,7 @@ function draw() {
   }
   
   for(var k = 0; k <=width; k = k + 80) {
-    divisions.push(new Divisions(k, height-divisionHeight/2, 10, divisionHeight));
+    divisions.push(new divisions(k, height-divisionHeight/2, 10, divisionHeight));
   
   }
     
