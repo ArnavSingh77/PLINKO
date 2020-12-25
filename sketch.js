@@ -100,7 +100,7 @@ function draw() {
     particles.push(new Particles(random(width/2-10,width/2+10),10,10));
   }
   
-  for(var k = 0; k<=width, k = k+80) {
+  for(var k = 0; k <=width; k = k + 80) {
     divisions.push(new Divisions(k, height-divisionHeight/2, 10, divisionHeight));
   
   }
