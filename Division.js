@@ -12,6 +12,7 @@ class Division{
     display(){
         var pos = this.body.position;
         rectMode(CENTER);
+        fill(this.color);
         rect(pos.x,pos.y,this.width,this.height);
     }
 };
