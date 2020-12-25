@@ -4,7 +4,7 @@ class Division{
           isStatic: true
         }
         this.body= Bodies.rectangle(x,y,width,height,options);
-        this.color=("white");
+        this.color="white";
         this.width=width;
         this.height=height;
         World.add(world,this.body);
@@ -12,7 +12,6 @@ class Division{
     display(){
         var pos = this.body.position;
         rectMode(CENTER);
-        fill("blue");
         rect(pos.x,pos.y,this.width,this.height);
     }
 };
