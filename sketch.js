@@ -20,13 +20,7 @@ function setup() {
 
   ground=new Ground(410,790,800,20);
 
-  division=new Division(30,650,20,270);
-  division1=new Division(170,650,20,270);
-  division2=new Division(330,650,20,270);
-  division3=new Division(480,650,20,270);
- 
-  div=new Division(620,650,20,270);
-  div1=new Division(770,650,20,270);
+
  
   plinko=new Plinko(500,100,30,30);
   plinko1=new Plinko(500,250,30,30);
@@ -58,14 +52,6 @@ function draw() {
   background("black");
   
   Engine.update(engine);  
-  ground.display();
-  division.display();
-  division1.display();
-  division2.display();
-  division3.display();
-  
-  div.display();
-  div1.display();
   
   plinko.display();
   plinko1.display();
