@@ -2,8 +2,6 @@ const Engine = Matter.Engine;
 const World= Matter.World;
 const Bodies = Matter.Bodies;
 var ground;
-var division,division1,division2,division3;
-var div,div1,div2;
 var plinko,plinko1,plinko2,plinko3,plinko4,plinko5;
 var pli,pli1,pli2,pli3,pli4,pli5,pli6,pli7,pli8;
 var p,p1,p2,p3,p4,p5;
@@ -19,8 +17,6 @@ function setup() {
   world = engine.world;
 
   ground=new Ground(410,790,800,20);
-
-
  
   plinko=new Plinko(500,100,30,30);
   plinko1=new Plinko(500,250,30,30);
