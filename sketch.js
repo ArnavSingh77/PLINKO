@@ -85,6 +85,9 @@ function draw() {
   if(frameCount%5===0){
     particles.push(new Particles(random(width/2-10,width/2+10),10,10));
   }
+  for(var k = 0; k < divisions.length; k++){
+      divisions[k].display();
+    }
 
     
 }
