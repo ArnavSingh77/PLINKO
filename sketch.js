@@ -54,6 +54,8 @@ function draw() {
   
   Engine.update(engine);  
   
+  ground.display();
+  
   plinko.display();
   plinko1.display();
   plinko2.display();
