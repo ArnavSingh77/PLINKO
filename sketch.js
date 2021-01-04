@@ -83,7 +83,7 @@ function draw() {
   }
 
   if(frameCount%5===0){
-    particles.push(new Particles(random(10,90),10,10));
+    particles.push(new Particles(random(10,790),10,10));
   }
   for(var k = 0; k < divisions.length; k++){
       divisions[k].display();
