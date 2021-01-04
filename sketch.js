@@ -82,7 +82,7 @@ function draw() {
     particles[j].display();
   }
 
-  if(frameCount%5===0){
+  if(frameCount%1000===0){
     particles.push(new Particles(random(10,790),10,10));
   }
   for(var k = 0; k < divisions.length; k++){
