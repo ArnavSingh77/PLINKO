@@ -16,7 +16,7 @@ function setup() {
   engine = Engine.create();
   world = engine.world;
 
-  ground=new Ground(410,790,800,20);
+  ground=new Ground(400,790,900,20);
  
   plinko=new Plinko(500,100,30,30);
   plinko1=new Plinko(500,250,30,30);
