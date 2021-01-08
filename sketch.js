@@ -8,6 +8,7 @@ var p,p1,p2,p3,p4,p5;
 
 var particles=[];
 var divisions=[];
+var plinkos=[];
 
 var divisionHeight=300;
 
