@@ -93,6 +93,11 @@ function draw() {
   p4.display();
   p5.display();
  
+  for (var m = 0; m < plinkos.length; m++) {
+     
+    plinkos[m].display();
+    
+  }
   for(var j= 0; j<particles.length; j++){
     particles[j].display();
   }
