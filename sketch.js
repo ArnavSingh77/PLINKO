@@ -18,30 +18,6 @@ function setup() {
   world = engine.world;
 
   ground=new Ground(400,790,900,20);
- 
-  plinko=new Plinko(500,100,30,30);
-  plinko1=new Plinko(500,250,30,30);
-  plinko2=new Plinko(500,400,30,30);
-  plinko3=new Plinko(300,250,30,30);
-  plinko4=new Plinko(300,400,30,30);
-  plinko5=new Plinko(300,100,30,30);
-
-  pli=new Plinko(100,100,30,30);
-  pli1=new Plinko(100,250,30,30);
-  pli2=new Plinko(100,400,30,30);
-  pli3=new Plinko(700,100,30,30);
-  pli4=new Plinko(700,250,30,30);
-  pli5=new Plinko(700,400,30,30);
-  pli6=new Plinko(600,50,20,20);
-  pli8=new Plinko(600,450,20,20);
-  pli7=new Plinko(600,300,20,20);
-
-  p=new Plinko(200,450,20,20);
-  p1=new Plinko(200,50,20,20);
-  p2=new Plinko(200,250,20,20);
-  p3=new Plinko(400,450,20,20);
-  p4=new Plinko(400,250,20,20);
-  p5=new Plinko(400,50,20,20);
      
   for(var k = 0; k <=width; k = k + 80) {
     divisions.push(new Division(k, height-divisionHeight/2, 10, divisionHeight));
