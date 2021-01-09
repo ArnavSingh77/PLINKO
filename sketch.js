@@ -47,16 +47,16 @@ function setup() {
     divisions.push(new Division(k, height-divisionHeight/2, 10, divisionHeight));
   
   }
-  for(var m = 40; m <= 480; m = m + 100) {
+  for(var m = 40; m <= 780; m = m + 100) {
       plinkos.push(new Plinko(m, 75, 15));
     }
-    for(var m = 15; m <= 470; m = m + 100) {
+    for(var m = 15; m <= 780; m = m + 100) {
       plinkos.push(new Plinko(m, 175, 15));
     }
-    for(var m = 40;m <= 480; m = m + 100) {
+    for(var m = 40;m <= 780; m = m + 100) {
       plinkos.push(new Plinko(m, 275, 15));
     }
-    for(var m = 15; m <= 470; m = m + 100) {
+    for(var m = 15; m <= 780; m = m + 100) {
       plinkos.push(new Plinko(m, 375, 15));
     }
   
