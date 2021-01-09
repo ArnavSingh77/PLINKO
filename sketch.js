@@ -2,9 +2,6 @@ const Engine = Matter.Engine;
 const World= Matter.World;
 const Bodies = Matter.Bodies;
 var ground;
-var plinko,plinko1,plinko2,plinko3,plinko4,plinko5;
-var pli,pli1,pli2,pli3,pli4,pli5,pli6,pli7,pli8;
-var p,p1,p2,p3,p4,p5;
 
 var particles=[];
 var divisions=[];
@@ -44,30 +41,6 @@ function draw() {
   Engine.update(engine);  
   
   ground.display();
-  
-  plinko.display();
-  plinko1.display();
-  plinko2.display();
-  plinko3.display();
-  plinko4.display();
-  plinko5.display();
- 
-  pli.display();
-  pli1.display();
-  pli2.display();
-  pli3.display();
-  pli4.display();
-  pli5.display();
-  pli6.display();
-  pli7.display();
-  pli8.display();
-
-  p.display();
-  p1.display();
-  p2.display();
-  p3.display();
-  p4.display();
-  p5.display();
  
   for (var m = 0; m < plinkos.length; m++) {
      
