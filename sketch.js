@@ -23,13 +23,13 @@ function setup() {
   for(var m = 40; m <= 780; m = m + 100) {
       plinkos.push(new Plinko(m, 75, 30));
     }
-    for(var m = 15; m <= 780; m = m + 100) {
+    for(var m = 40; m <= 780; m = m + 100) {
       plinkos.push(new Plinko(m, 175, 30));
     }
     for(var m = 40;m <= 780; m = m + 100) {
       plinkos.push(new Plinko(m, 275, 30));
     }
-    for(var m = 15; m <= 780; m = m + 100) {
+    for(var m = 40; m <= 780; m = m + 100) {
       plinkos.push(new Plinko(m, 375, 30));
     }
   
